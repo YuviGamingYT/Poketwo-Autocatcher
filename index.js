@@ -21,7 +21,7 @@ const {
 
 const config = require('./config.json')
 const json = require('./namefix.json');
-const allowedChannels = []; // Add your allowed channel IDs to this array or leave it like [] if you want to it to catch from all channels
+const allowedChannels = [1116531919224578159]; // Add your allowed channel IDs to this array or leave it like [] if you want to it to catch from all channels
 let isSleeping = false;
 
 
