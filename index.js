@@ -75,7 +75,7 @@ client.on('ready', () => {
 
     function spam() {
         const result = Math.random().toString(36).substring(2, 15);
-        channel.send(result + "(Made by 🔥⃤•AK_ØPᵈᵉᵛ✓#6326) ")
+        channel.send(result + "(i don't know what i do) ")
         const randomInterval = getRandomInterval(1500, 5000); // Random interval for spam between 1 second and 5 seconds
         setTimeout(spam, randomInterval);
     }
